@@ -14,7 +14,6 @@ export default () => {
           location: "san jose",
         },
       });
-      console.log(data.businesses);
       setResults(data.businesses);
     } catch (error) {
       setErrorMessage("something went wrong");
